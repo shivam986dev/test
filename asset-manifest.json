@@ -1,22 +1,29 @@
 {
   "files": {
     "main.css": "/test/static/css/main.39d56209.css",
-    "main.js": "/test/static/js/main.0f926dd4.js",
+    "main.js": "/test/static/js/main.04291a3c.js",
     "static/media/ChatGPT-Image-Sep-18-2025-01_40_52-PM.png": "/test/static/media/ChatGPT-Image-Sep-18-2025-01_40_52-PM.11ef2455401b5056c87d.png",
+    "static/media/How-to-Make-Your-Apartment-Smell-Good.png": "/test/static/media/How-to-Make-Your-Apartment-Smell-Good.209d3de85c2e81912a8e.png",
+    "static/media/b248650c-ec4c-4fca-a7d7-67bafe10a1a4.png": "/test/static/media/b248650c-ec4c-4fca-a7d7-67bafe10a1a4.97cd123ed386196f5cc5.png",
+    "static/media/versova-metro.png": "/test/static/media/versova-metro.c984679c4fea6e928906.png",
+    "static/media/w-c586980953srd-w928_q80.png": "/test/static/media/866ac4fce19296b07dbe9198820cbbd1w-c586980953srd-w928_q80.e931585cf4976352d7e5.png",
     "static/media/real-estate-investment-india-940x560-1-768x458.png": "/test/static/media/real-estate-investment-india-940x560-1-768x458.5ad689eb5e9f9cf04850.png",
     "static/media/bootstrap-icons.woff?": "/test/static/media/bootstrap-icons.1295669cd4e305c97f2c.woff",
+    "static/media/Bhk-Cover-image.jpg": "/test/static/media/Bhk-Cover-image.1d19527d20d579e7c50a.jpg",
     "static/media/bootstrap-icons.woff2?": "/test/static/media/bootstrap-icons.92ea18a81d737146ff04.woff2",
     "static/media/srk-mannat-940x560-2.jpeg": "/test/static/media/srk-mannat-940x560-2.8e2a90539bf8c2ca093d.jpeg",
     "static/media/cost-of-living-in-bangalore-940x560-1-768x458.jpg": "/test/static/media/cost-of-living-in-bangalore-940x560-1-768x458.413c6c87c750b4e7f8c4.jpg",
     "static/media/borivali-east-or-west-940x559-1-768x457.jpg": "/test/static/media/borivali-east-or-west-940x559-1-768x457.f2b8483626bc7e3ebc36.jpg",
     "static/media/Desk Logo.gif": "/test/static/media/Desk Logo.c90db53c7d9446e02593.gif",
     "static/media/secproertynews-300x156.png": "/test/static/media/secproertynews-300x156.0a7b9187eceec7fdfbf4.png",
+    "static/media/stamp-duty-calculatore-300x179.jpg": "/test/static/media/stamp-duty-calculatore-300x179.1645850278a155d3321f.jpg",
+    "static/media/area-calculatore-300x179.jpg": "/test/static/media/area-calculatore-300x179.9b2a4837f63eb622ecf4.jpg",
     "index.html": "/test/index.html",
     "main.39d56209.css.map": "/test/static/css/main.39d56209.css.map",
-    "main.0f926dd4.js.map": "/test/static/js/main.0f926dd4.js.map"
+    "main.04291a3c.js.map": "/test/static/js/main.04291a3c.js.map"
   },
   "entrypoints": [
     "static/css/main.39d56209.css",
-    "static/js/main.0f926dd4.js"
+    "static/js/main.04291a3c.js"
   ]
 }
