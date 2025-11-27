@@ -1,0 +1,106 @@
+@media (min-width: 992px) {
+    .menu-wrapper {
+        position: sticky;
+        top: 0; 
+        z-index: 99999;
+        background: #fff;
+    }
+}
+@media (min-width: 992px) {
+    .mh-header {
+        position: sticky;
+        top: -94px !important;
+        z-index: 99999;
+        background: #fff;
+    }
+}
+
+/* =============================
+   NAVBAR LINKS
+============================= */
+.nav-link {
+  font-family: "Georgia", serif;
+  cursor: pointer;
+  color: #000 !important;
+  font-size: 12px;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+/* =============================
+   MOBILE TOGGLER (Hamburger → Cross)
+============================= */
+.mobile-toggle {
+  border: none;
+  background: none;
+  padding: 0 !important;
+  width: 35px;
+  height: 30px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+.navbar-toggler{
+  border: none !;
+}
+.toggler-icon {
+  width: 100%;
+  height: 4px;
+  background-color: #000;
+  border-radius: 4px;
+  transition: 0.3s ease-in-out;
+  display: block;
+}
+
+.mobile-toggle[aria-expanded="true"] .top-bar {
+  transform: rotate(45deg) translateY(10px);
+}
+
+.mobile-toggle[aria-expanded="true"] .middle-bar {
+  opacity: 0;
+}
+
+.mobile-toggle[aria-expanded="true"] .bottom-bar {
+  transform: rotate(-45deg) translateY(-10px);
+}
+
+/* =============================
+   DESKTOP LOGO
+============================= */
+.desktop-logo {
+  height: 70px;
+  cursor: pointer;
+}
+
+/* =============================
+   MOBILE LOGO
+============================= */
+.mobile-logo {
+  width: 85%;
+}
+
+/* =============================
+   STICKY MENU
+============================= */
+.menu-wrapper {
+  top: 0;
+}
+
+/* =============================
+   OPTIONAL CLEANING
+============================= */
+.navbar-light .navbar-nav .nav-link {
+  color: #000;
+font-weight: 600;
+font-size: 11px;
+}
+.navbar-expand-lg .navbar-collapse{
+  border-top: 1px solid rgb(182, 182, 182);
+}

@@ -1,0 +1,167 @@
+
+/* Tabs Styling */
+.custom-tabs .nav-link {
+  /* font-weight: 600; */
+  color: #555;
+  border: none;
+}
+.custom-tabs .nav-link.active {
+  border-bottom: 3px solid #000;
+  color: #000;
+}
+
+/* Article Box */
+.article-box {
+  padding: 10px 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+.article-box:last-child {
+  border-bottom: none;
+}
+
+.article-img {
+  width: 80px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 3px;
+}
+
+.article-title {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 3px;
+}
+
+.meta {
+  font-size: 12px;
+  color: #777;
+}
+.sidebar{
+  top: 32px;
+}
+/* Big Featured Article */
+.big-article-img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.big-article-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.big-article-date {
+  font-size: 13px;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.big-article-desc {
+  color: #444;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+/* Small Articles Grid */
+.small-article-img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.small-article-title
+ {
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.small-article-date {
+  font-size: 13px;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+/* Buttons */
+button.btn-outline-dark {
+    font-size: 14px;
+    padding: 6px 10px;
+    font-weight: bold;
+}
+.right_boxes{
+  width: 35%;
+}
+
+.article-link {
+  text-decoration: none !important;
+  color: inherit !important;
+  display: block;
+}
+
+.article-link:hover .article-box {
+  background: #f7f7f7;
+  transition: 0.2s;
+}
+.article-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #000;
+  color: #fff;
+  padding: 3px 8px;
+  font-size: 11px;
+  font-weight: 600;
+  border-radius: 3px;
+  z-index: 10;
+}
+
+p{
+  font-size: 0.9rem;
+}
+
+.card1 {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    border: 1px solid #ededed;
+    padding: 10px;
+}
+
+
+.card1 {
+    transition: transform 0.4s ease;
+}
+
+.card1:hover {
+    transform: translateY(-5px);
+}
+
+.custom-tabs {
+  border: none;
+}
+.tab_item{
+  border: 1px solid #ddd;
+
+}
+.card-body{
+  margin-top: 10px;
+}
+.custom-tabs .nav-link {
+  border: none;
+  background: transparent;
+  color: #000;
+  font-weight: 500;
+  padding: 10px 18px;
+  border-radius: 0;
+}
+
+.custom-tabs .nav-link:hover {
+  background: #f2f2f2;
+  border: none;
+}
+
+.custom-tabs .nav-link.active {
+  background: #f2f2f2;          
+  color: #fff;             
+  border: none;
+  /* font-weight: 600; */
+}
