@@ -5,7 +5,7 @@ import "./Header.css";
 
 export default function Header() {
   return (
-    <header className="mh-header border-bottom bg-white py-2">
+    <header className="mh-header border-bottom bg-white py-lg-2 p-0">
       <div className="container-fluid">
 
         <nav className="navbar navbar-light d-flex d-lg-none px-0 mobile-nav">

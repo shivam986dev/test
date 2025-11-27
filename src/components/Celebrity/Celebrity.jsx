@@ -101,7 +101,7 @@ export default function Celebrity({
 
 
                 {/* ================= RIGHT SIDEBAR ================= */}
-                <div className="col-lg-4 pe-0">
+                <div className="col-lg-4 pe-lg-0">
 
                     <div className="add_section sticky-top">
                         <div className="logo_Add mb-4 ">

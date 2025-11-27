@@ -1,3 +1,21 @@
+@media (max-width: 767px) {
+
+  .srk-title {
+    font-size: 30px !important;
+    margin: 15px 0px;
+  }
+
+  .image-fit-contain img {
+    width: 100%;
+    height: auto !important;   
+    padding: 5px 0px;
+  }
+
+}
+
+
+
+
 .srk-banner-img {
   border-radius: 8px;
 }
@@ -27,7 +45,7 @@
 .image-fit-contain img{
     width: 100%;
     height: 500px;
-    padding: 5px 0px;
+    padding: 10px 0px;
 }
 .add_section {
   border: 1px solid #eee;

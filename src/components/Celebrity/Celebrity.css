@@ -1,3 +1,9 @@
+@media (max-width: 767px) {
+    .feature-title {
+    font-size: 22px !important;
+    font-weight: 700;
+}
+}
 .feature-banner {
     position: relative;
 }

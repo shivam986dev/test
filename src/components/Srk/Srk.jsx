@@ -11,7 +11,7 @@ export default function Srk() {
     });
 
     return (
-        <div className="container py-4 srk-page p-0">
+        <div className="container py-4 srk-page p-lg-0">
 
 
 
@@ -617,7 +617,7 @@ export default function Srk() {
                 </div>
 
                 {/* RIGHT SIDEBAR */}
-                <div className="col-lg-4 pe-0">
+                <div className="col-lg-4 pe-lg-0">
 
                     <div className="add_section sticky-top">
                         <div className="logo_Add mb-4 ">
