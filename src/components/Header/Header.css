@@ -9,7 +9,7 @@
 @media (min-width: 992px) {
     .mh-header {
         position: sticky;
-        top: -94px !important;
+        top: -74px !important;
         z-index: 99999;
         background: #fff;
     }
@@ -75,7 +75,7 @@
    DESKTOP LOGO
 ============================= */
 .desktop-logo {
-  height: 70px;
+  height: 50px;
   cursor: pointer;
 }
 

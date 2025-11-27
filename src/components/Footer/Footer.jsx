@@ -37,12 +37,13 @@ export default function Footer() {
                   <li>Infrastructure</li>
                   <li>Locality Insights</li>
                   <li>Vastu</li>
+                  <li>Celebrity Homes</li>
                 </ul>
               </div>
 
               <div className="col-6">
                 <ul className="footer-links">
-                  <li>Celebrity Homes</li>
+                  
                   <li>Insurance</li>
                   <li>Property Buying Guides</li>
                   <li>Property News</li>

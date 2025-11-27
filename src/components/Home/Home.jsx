@@ -30,24 +30,29 @@ export default function Home() {
             <div className="container mt-5">
                 <div className="row">
                     <div className="col-lg-8 mb-4">
-                        <div className="big-article card mb-4">
-                            <img
-                                src={MannatImage}
-                                className="card-img-top big-article-img"
-                                alt="Featured"
-                            />
-                            <div className="card-body">
-                                <h3 className="big-article-title">
-                                    Mannat, Shahrukh Khan House: Price, Inside Tour, Address
-                                </h3>
-                                <p className="big-article-date">November 15, 2025</p>
-                                <p className="big-article-desc">
-                                    Learn Everything About Mannat House: Shahrukh Khan, the King of Bollywood,
-                                    in one of the most iconic homes in India. This mansion in Bandra is a landmark…
-                                </p>
-                                <button className="btn btn-outline-dark btn-sm">Read more →</button>
+                        <Link to="/shahrukh-khan">
+                            <div className="big-article card mb-4">
+                                <img
+                                    src={MannatImage}
+                                    className="card-img-top big-article-img"
+                                    alt="Featured"
+                                />
+                                <div className="card-body">
+                                    <h3 className="big-article-title">
+                                        Mannat, Shahrukh Khan House: Price, Inside Tour, Address
+                                    </h3>
+                                    <p className="big-article-date">November 15, 2025</p>
+                                    <p className="big-article-desc">
+                                        Learn Everything About Mannat House: Shahrukh Khan, the King of Bollywood,
+                                        in one of the most iconic homes in India. This mansion in Bandra is a landmark…
+                                    </p>
+
+                                    <button className="btn btn-outline-dark btn-sm">
+                                        Read more →
+                                    </button>
+                                </div>
                             </div>
-                        </div>
+                        </Link>
                         {/*======================== column 6 ======================*/}
                         <div className="row">
                             <div className="col-md-6">
@@ -152,10 +157,10 @@ export default function Home() {
                                     {/* 1 */}
                                     <Link to="/article/mannat" className="article-link">
                                         <div className="article-box d-flex">
-                                            <img src={MannatImage} className="card-img-top right_boxes" alt="Featured" />
+                                            <img src={NriImage} className="card-img-top right_boxes" alt="Featured" />
                                             <div className="ms-3">
-                                                <h6 className="article-title">Mannat, Shahrukh Khan House: Inside Tour</h6>
-                                                <p className="meta"><i className="bi bi-eye"></i> 277 views • Nov 15, 2025</p>
+                                                <h6 className="article-title">Why Avoiding Indian Real Estate Could Be Your Biggest Financial Mistake?</h6>
+                                                <p className="meta">Nov 15, 2025</p>
                                             </div>
                                         </div>
                                     </Link>
@@ -163,10 +168,10 @@ export default function Home() {
                                     {/* 2 */}
                                     <Link to="/article/mannat" className="article-link">
                                         <div className="article-box d-flex">
-                                            <img src={MannatImage} className="card-img-top right_boxes" alt="Featured" />
+                                            <img src={LocalityImage} className="card-img-top right_boxes" alt="Featured" />
                                             <div className="ms-3">
-                                                <h6 className="article-title">Mannat, Shahrukh Khan House: Inside Tour</h6>
-                                                <p className="meta"><i className="bi bi-eye"></i> 277 views • Nov 15, 2025</p>
+                                                <h6 className="article-title">Borivali East or West, Which Is the Best?</h6>
+                                                <p className="meta">Nov 15, 2025</p>
                                             </div>
                                         </div>
                                     </Link>
@@ -174,9 +179,9 @@ export default function Home() {
                                     {/* 3 */}
                                     <Link to="/article/3bhk-plans" className="article-link">
                                         <div className="article-box d-flex">
-                                            <img src={MannatImage} className="card-img-top right_boxes" alt="Featured" />
+                                            <img src={LocalityImage1} className="card-img-top right_boxes" alt="Featured" />
                                             <div className="ms-3">
-                                                <h6 className="article-title">Best 3 BHK House Plans</h6>
+                                                <h6 className="article-title">Cost of Living in Bangalore (2025-2026): Detailed list of monthly expenses</h6>
                                                 <p className="meta"><i className="bi bi-eye"></i> 187 views • Nov 15, 2025</p>
                                             </div>
                                         </div>
@@ -185,10 +190,10 @@ export default function Home() {
                                     {/* 4 */}
                                     <Link to="/article/mannat" className="article-link">
                                         <div className="article-box d-flex">
-                                            <img src={MannatImage} className="card-img-top right_boxes" alt="Featured" />
+                                            <img src={InsuranceImage} className="card-img-top right_boxes" alt="Featured" />
                                             <div className="ms-3">
-                                                <h6 className="article-title">Mannat, Shahrukh Khan House: Inside Tour</h6>
-                                                <p className="meta"><i className="bi bi-eye"></i> 277 views • Nov 15, 2025</p>
+                                                <h6 className="article-title">The Average Home Insurance Cost in the U.S. for 2025</h6>
+                                                <p className="meta">Nov 15, 2025</p>
                                             </div>
                                         </div>
                                     </Link>
@@ -196,9 +201,9 @@ export default function Home() {
                                     {/* 5 */}
                                     <Link to="/article/3bhk-plans" className="article-link">
                                         <div className="article-box d-flex">
-                                            <img src={MannatImage} className="card-img-top right_boxes" alt="Featured" />
+                                            <img src={PropertyNImage} className="card-img-top right_boxes" alt="Featured" />
                                             <div className="ms-3">
-                                                <h6 className="article-title">Best 3 BHK House Plans</h6>
+                                                <h6 className="article-title">What Does a Fed Rate Cut Mean for Mortgage Rates?</h6>
                                                 <p className="meta"><i className="bi bi-eye"></i> 187 views • Nov 15, 2025</p>
                                             </div>
                                         </div>
@@ -213,7 +218,7 @@ export default function Home() {
                                             <img src={MannatImage} className="card-img-top right_boxes" alt="Featured" />
                                             <div className="ms-3">
                                                 <h6 className="article-title">Borivali East or West: Best?</h6>
-                                                <p className="meta"><i className="bi bi-eye"></i> 117 views • Nov 15, 2025</p>
+                                                <p className="meta">Nov 15, 2025</p>
                                             </div>
                                         </div>
                                     </Link>
@@ -311,7 +316,7 @@ export default function Home() {
                                             />
                                             <div className="card-body">
                                                 <h6 className="small-article-title">
-                                                   A Comprehensive Guide to BHK: Its Complete Form,Significance, and Elements
+                                                    A Comprehensive Guide to BHK: Its Complete Form,Significance, and Elements
                                                 </h6>
                                                 <p className="small-article-date">November 15, 2025</p>
                                                 <p>In India, describing your house in terms of BHK rather than real square…</p>
@@ -331,7 +336,7 @@ export default function Home() {
                                             />
                                             <div className="card-body">
                                                 <h6 className="small-article-title">
-                                                   Mumbai Versova Ghatkopar Metro Route: Map, Stations & More | Mumbai Line 1 – Blue Line
+                                                    Mumbai Versova Ghatkopar Metro Route: Map, Stations & More | Mumbai Line 1 – Blue Line
                                                 </h6>
                                                 <p className="small-article-date">November 20, 2025</p>
                                                 <p>The Versova Ghatkopar Metro Route (also known as Mumbai Metro Line 1)…</p>
@@ -380,7 +385,7 @@ export default function Home() {
                                         </div>
                                     </Link>
                                 </div>
-                                 {/*-------- area Calculator ---------*/}
+                                {/*-------- area Calculator ---------*/}
                                 <div className="col-md-4">
                                     <Link to="/article/insurance-cost" className="article-link">
                                         <div className="small-article card1 mb-4">
@@ -406,6 +411,6 @@ export default function Home() {
                     {/*======================== column 4 end ======================*/}
                 </div>
             </div>
-        </div>
+        </div >
     );
 }
