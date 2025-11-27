@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/test/static/css/main.39d56209.css",
-    "main.js": "/test/static/js/main.0083aad0.js",
+    "main.js": "/test/static/js/main.0f926dd4.js",
     "static/media/ChatGPT-Image-Sep-18-2025-01_40_52-PM.png": "/test/static/media/ChatGPT-Image-Sep-18-2025-01_40_52-PM.11ef2455401b5056c87d.png",
     "static/media/real-estate-investment-india-940x560-1-768x458.png": "/test/static/media/real-estate-investment-india-940x560-1-768x458.5ad689eb5e9f9cf04850.png",
     "static/media/bootstrap-icons.woff?": "/test/static/media/bootstrap-icons.1295669cd4e305c97f2c.woff",
@@ -13,10 +13,10 @@
     "static/media/secproertynews-300x156.png": "/test/static/media/secproertynews-300x156.0a7b9187eceec7fdfbf4.png",
     "index.html": "/test/index.html",
     "main.39d56209.css.map": "/test/static/css/main.39d56209.css.map",
-    "main.0083aad0.js.map": "/test/static/js/main.0083aad0.js.map"
+    "main.0f926dd4.js.map": "/test/static/js/main.0f926dd4.js.map"
   },
   "entrypoints": [
     "static/css/main.39d56209.css",
-    "static/js/main.0083aad0.js"
+    "static/js/main.0f926dd4.js"
   ]
 }
