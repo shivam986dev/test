@@ -19,22 +19,23 @@ export default function Celebrity({
         <div className="container py-4 celebrity-page">
             <Breadcrumb />
             {/* ================= BIG FEATURE BANNER ================= */}
-            <div className="feature-banner mb-4">
-                <img
-                    src={MannatImage}
-                    alt={title}
-                    className="w-100 feature-img"
-                />
+            <Link to="" className="article-link">
+                <div className="feature-banner mb-4">
+                    <img
+                        src={MannatImage}
+                        alt={title}
+                        className="w-100 feature-img"
+                    />
 
-                <div className="feature-text">
-                    <span className="tag">Celebrity Homes</span>
-                    <h1 className="feature-title">Mukesh Ambani’s Antilia: Inside Asia’s most opulent residence, at $2 billion.</h1>
-                    <p className="feature-meta text-white">
-                        October 15, 2025
-                    </p>
+                    <div className="feature-text">
+                        <span className="tag">Celebrity Homes</span>
+                        <h1 className="feature-title">Mukesh Ambani’s Antilia: Inside Asia’s most opulent residence, at $2 billion.</h1>
+                        <p className="feature-meta text-white">
+                            October 15, 2025
+                        </p>
+                    </div>
                 </div>
-            </div>
-
+            </Link>
             {/* ================= ROW: 2 MEDIUM POSTS + SIDEBAR ================= */}
             <div className="row">
 

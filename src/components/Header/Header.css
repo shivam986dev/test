@@ -1,30 +1,60 @@
-@media (max-width: 992px) {
-    .menu-wrapper {
-        position: sticky;
-        top: 0; 
-        z-index: 99999;
-        background: #fff;
-    }
-     .mh-header {
-        position: sticky;
-        top: 0 !important;
-        z-index: 99999;
-        background: #fff;
-        /* padding: 0; */
-    }
-}
-@media (min-width: 992px) {
-    .mh-header {
-        position: sticky;
-        top: -74px !important;
-        z-index: 99999;
-        background: #fff;
-    }
-    .mobile-logo {
-    width: 70% !important;
-}
+/* =============================
+   RESPONSIV MEDIA START
+============================= */
+
+@media (max-width: 991px) {
+  .menu-wrapper {
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+    background: #fff;
+  }
+
+  .mh-header {
+    position: sticky;
+    top: 0 !important;
+    z-index: 99999;
+    background: #fff;
+  }
+
+  #mainMenu {
+    position: fixed;
+    top: 0;
+    left: -280px;
+    width: 260px;
+    height: 100vh;
+    background: #fff;
+    z-index: 9999;
+    padding: 70px 20px 20px;
+    transition: left 0.4s ease;
+    overflow-y: auto;
+  }
+
+  #mainMenu.show {
+    left: 0;
+  }
+
+  body.menu-open {
+    overflow: hidden;
+  }
 }
 
+@media (min-width: 992px) {
+  .mh-header {
+    position: sticky;
+    top: -74px !important;
+    z-index: 99999;
+    background: #fff;
+  }
+
+  .mobile-logo {
+    width: 70% !important;
+  }
+}
+
+/* =============================
+   RESPONSIV MEDIA END
+============================= */
 /* =============================
    NAVBAR LINKS
 ============================= */
@@ -57,9 +87,11 @@
 .navbar-toggler:focus {
   box-shadow: none !important;
 }
-.navbar-toggler{
+
+.navbar-toggler {
   border: none !;
 }
+
 .toggler-icon {
   width: 100%;
   height: 4px;
@@ -93,7 +125,7 @@
    MOBILE LOGO
 ============================= */
 .mobile-logo {
-  width: 85%;
+  width: 65%;
 }
 
 /* =============================
@@ -108,9 +140,18 @@
 ============================= */
 .navbar-light .navbar-nav .nav-link {
   color: #000;
-font-weight: 600;
-font-size: 11px;
+  font-weight: 600;
+  font-size: 11px;
 }
-.navbar-expand-lg .navbar-collapse{
-  border-top: 1px solid rgb(182, 182, 182);
+
+.navbar-expand-lg .navbar-collapse {
+  border-top: 1px solid #f1f1f1;
 }
+
+.active-nav {
+  color: #ffffff !important;
+  font-weight: 600;
+  background-color: #000 !important;
+}
+
+@media (max-width: 991px) {}
