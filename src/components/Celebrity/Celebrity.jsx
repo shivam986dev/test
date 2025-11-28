@@ -2,10 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Breadcrumb from "../Breadcrumb/Breadcrumb";
 import "./Celebrity.css";
-import MannatImage from "../../assets/img/celebrity-homes/antilia.png";
-import Mannat1Image from "../../assets/img/celebrity-homes/virat-kohlis-house.webp";
-import Mannat2Image from "../../assets/img/srk-mannat/srk-mannat-940x560-2.jpeg";
-import Mannat3Image from "../../assets/img/celebrity-homes/Vijay-Verma-Home-in-Juhu-940x560-1-768x458.png";
+import CelebrityImage from "../../assets/img/celebrity-homes/antilia.png";
+import Celebrity1Image from "../../assets/img/celebrity-homes/virat-kohlis-house.webp";
+import Celebrity2Image from "../../assets/img/srk-mannat/srk-mannat-940x560-2.jpeg";
+import Celebrity3Image from "../../assets/img/celebrity-homes/Vijay-Verma-Home-in-Juhu-940x560-1-768x458.png";
 import LogoaddImage from "../../assets/img/Logo-animation.gif";
 
 export default function Celebrity({
@@ -19,10 +19,10 @@ export default function Celebrity({
         <div className="container py-4 celebrity-page">
             <Breadcrumb />
             {/* ================= BIG FEATURE BANNER ================= */}
-            <Link to="" className="article-link">
+            <Link to="/mukeshambani" className="article-link">
                 <div className="feature-banner mb-4">
                     <img
-                        src={MannatImage}
+                        src={CelebrityImage}
                         alt={title}
                         className="w-100 feature-img"
                     />
@@ -44,10 +44,10 @@ export default function Celebrity({
                     <div className="row g-4">
                         {/* Virat Kohli */}
                         <div className="col-md-6">
-                            <Link to="" className="article-link">
+                            <Link to="/viratkohli" className="article-link">
                                 <div className="medium-box card position-relative">
                                     <div className="img-wrapper position-relative">
-                                        <img src={Mannat1Image} className="card-img-top" alt="" />
+                                        <img src={Celebrity1Image} className="card-img-top" alt="" />
                                         <span className="img-tag top-left">Celebrity Homes</span>
                                     </div>
 
@@ -65,7 +65,7 @@ export default function Celebrity({
                             <Link to="/shahrukh-khan" className="article-link">
                                 <div className="medium-box card position-relative">
                                     <div className="img-wrapper position-relative">
-                                        <img src={Mannat2Image} className="card-img-top" alt="" />
+                                        <img src={Celebrity2Image} className="card-img-top" alt="" />
                                         <span className="img-tag top-left">Celebrity Homes</span>
                                     </div>
 
@@ -80,10 +80,10 @@ export default function Celebrity({
 
                         {/* Vijay Varma */}
                         <div className="col-md-6">
-                            <Link to="/article/mannat" className="article-link">
+                            <Link to="/vijayverma" className="article-link">
                                 <div className="medium-box card position-relative">
                                     <div className="img-wrapper position-relative">
-                                        <img src={Mannat3Image} className="card-img-top" alt="" />
+                                        <img src={Celebrity3Image} className="card-img-top" alt="" />
                                         <span className="img-tag top-left">Celebrity Homes</span>
                                     </div>
 

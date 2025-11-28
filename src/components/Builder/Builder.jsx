@@ -18,7 +18,9 @@ export default function Builder({
         <div className="container py-4 Builder-page">
             <Breadcrumb />
             {/* ================= BIG FEATURE BANNER ================= */}
-            <Link to="" className="article-link">
+
+            {/*--------------- inner Builder1 ---------------------*/}
+            <Link to="/inner-builder1" className="article-link">
                 <div className="feature-banner mb-4">
                     <img
                         src={BuilderImage}
@@ -43,7 +45,9 @@ export default function Builder({
                     <div className="row g-4">
                         {/* Builders Known for Quality */}
                         <div className="col-md-6">
-                            <Link to="" className="article-link">
+                            
+                            {/*--------------- inner Builder2 ---------------------*/}
+                            <Link to="/inner-builder2" className="article-link">
                                 <div className="medium-box card position-relative">
                                     <div className="img-wrapper position-relative">
                                         <img src={Builder1Image} className="card-img-top" alt="" />
@@ -61,7 +65,9 @@ export default function Builder({
 
                         {/* Builders Delivering Projects */}
                         <div className="col-md-6">
-                            <Link to="/shahrukh-khan" className="article-link">
+
+                            {/*--------------- inner Builder3 ---------------------*/}
+                            <Link to="/inner-builder3" className="article-link">
                                 <div className="medium-box card position-relative">
                                     <div className="img-wrapper position-relative">
                                         <img src={Builder2Image} className="card-img-top" alt="" />

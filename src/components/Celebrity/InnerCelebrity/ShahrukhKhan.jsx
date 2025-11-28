@@ -1,7 +1,7 @@
 import React from "react";
-import "./Srk.css";
-import MannatImage from "../../assets/img/srk-mannat/srk-mannat-940x560-2.jpeg";
-import LogoaddImage from "../../assets/img/Logo-animation.gif";
+// import "./Srk.css";
+import MannatImage from "../../../assets/img/srk-mannat/srk-mannat-940x560-2.jpeg";
+import LogoaddImage from "../../../assets/img/Logo-animation.gif";
 
 export default function Srk() {
     const today = new Date().toLocaleDateString("en-US", {
@@ -16,7 +16,7 @@ export default function Srk() {
 
 
             {/* Title */}
-            <h1 className="srk-title">
+            <h1 className="inner_page-title">
                 Mannat, Shahrukh Khan House: Price, Inside Tour, Address
             </h1>
 
@@ -30,15 +30,10 @@ export default function Srk() {
                     <div className="srk-banner mb-4">
                         <img src={MannatImage} alt="Mannat" className="w-100 srk-banner-img" />
                     </div>
-                    {/* Meta */}
-                    <div className="srk-meta mb-3">
-                        <span><i className="bi bi-eye"></i> 12,452 views</span>
-                        <span className="ms-3"><i className="bi bi-calendar"></i> {today}</span>
-                    </div>
-                    <p className="srk-desc">
+                    <p>
                         Learn Everything About Mannat House: Shahrukh Khan, the King Khan of Bollywood, is one of the most beloved stars in the Hindi film business. The Shahrukh Khan mansion in Bandra is a well-known landmark in Mumbai, with many people passing through its gates on a daily basis. Bollywood admirers from all over the world gather at his home to catch a peek of the megastar or simply to grab a photograph outdoors.
                     </p>
-                    <p className="srk-desc">
+                    <p>
                         Shahrukh Khan, known as the Baadshah of Bollywood, is a renowned actor and producer. He began his career as the lead in the popular TV series Fauji in 1989 and acted in his debut film, Deewana, in 1992; the rest is history! Shahrukh Khan has won hearts over and again, from notable performances early in his career in films like Darr, Karan Arjun, and Baazigar to blockbuster smashes that crossed 100 crores like Chennai Express, Jab Tak Hai Jaan, Happy New Year, and more. He has been a vital member of the Bollywood film industry for more than three decades.
                     </p>
                     <p>

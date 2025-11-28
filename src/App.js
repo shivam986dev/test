@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { initSmoothScroll } from "./smoothScroll";
+
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Header from "./components/Header/Header";
@@ -6,7 +8,6 @@ import Footer from "./components/Footer/Footer";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 
 import Home from "./components/Home/Home";
-import Srk from "./components/Srk/Srk";
 import Celebrity from "./components/Celebrity/Celebrity";
 import Builder from "./components/Builder/Builder";
 import Connectivity from "./components/Connectivity/Connectivity";
@@ -17,9 +18,24 @@ import LocalityInsight from "./components/LocalityInsight/LocalityInsight";
 import PropertyBuyingGuides from "./components/PropertyBuyingGuides/PropertyBuyingGuides";
 import PropertyNews from "./components/PropertyNews/PropertyNews";
 import Vastu from "./components/Vastu/Vastu";
-
+// inner builder links
+import InnerBuilder1 from "./components/Builder/InnerBuilder/InnerBuilder1";
+import InnerBuilder2 from "./components/Builder/InnerBuilder/InnerBuilder2";
+import InnerBuilder3 from "./components/Builder/InnerBuilder/InnerBuilder3";
+// inner Celebrity links
+import MukeshAmbani from "./components/Celebrity/InnerCelebrity/MukeshAmbani";
+import ViratKohli from "./components/Celebrity/InnerCelebrity/ViratKohli";
+import ShahrukhKhan from "./components/Celebrity/InnerCelebrity/ShahrukhKhan";
+import VijayVerma from "./components/Celebrity/InnerCelebrity/VijayVerma";
+// inner Connectivity links
+import InnerConnectivity1 from "./components/Connectivity/InnerConnectivity/InnerConnectivity1";
+import InnerConnectivity2 from "./components/Connectivity/InnerConnectivity/InnerConnectivity2";
 
 function App() {
+  useEffect(() => {
+    initSmoothScroll && initSmoothScroll();
+  }, []);
+
   return (
     <BrowserRouter basename="/test">
       <ScrollToTop />
@@ -30,39 +46,60 @@ function App() {
         {/* HOME PAGE */}
         <Route path="/" element={<Home />} />
 
-        {/*  BUILDER LIST PAGE */}
+        {/*===================== BUILDER  ============================*/}
         <Route path="/builder" element={<Builder />} />
 
+        {/*---- BUILDER inner----*/}
 
-        {/*  CELEBRITY HOMES LIST PAGE */}
+        <Route path="/inner-builder1" element={<InnerBuilder1 />} />
+
+        <Route path="/inner-builder2" element={<InnerBuilder2 />} />
+
+        <Route path="/inner-builder3" element={<InnerBuilder3 />} />
+
+
+        {/*===================== CELEBRITY  ============================*/}
         <Route path="/celebrity-homes" element={<Celebrity />} />
 
-        {/*  Connectivity LIST PAGE */}
-        <Route path="/connectivity" element={<Connectivity />} />
+        {/*---- Celebrity inner----*/}
 
-        {/*  Infrastructure LIST PAGE */}
+        <Route path="/mukeshambani" element={<MukeshAmbani />} />
+
+        <Route path="/viratkohli" element={<ViratKohli />} />
+
+        <Route path="/shahrukh-khan" element={<ShahrukhKhan />} />
+
+        <Route path="/vijayverma" element={<VijayVerma />} />
+
+
+        {/*===================== CONNECTIVITY  ============================*/}
+        <Route path="/connectivity" element={<Connectivity />} />
+        {/*-----Connectivity inner----*/}
+
+        <Route path="/innerconnectivity1" element={<InnerConnectivity1 />} />
+
+        <Route path="/innerconnectivity2" element={<InnerConnectivity2 />} />
+
+        
+
+        {/*===================== INFRASTRUCTURE  ============================*/}
         <Route path="/infrastructure" element={<Infrastructure />} />
 
-        {/*  Infrastructure LIST PAGE */}
         <Route path="/insurance" element={<Insurance />} />
 
-        {/*  Infrastructure LIST PAGE */}
         <Route path="/interiors" element={<Interiors />} />
 
-        {/*  Infrastructure LIST PAGE */}
         <Route path="/locality-insight" element={<LocalityInsight />} />
 
-        {/*  Infrastructure LIST PAGE */}
         <Route path="/property-buying-guides" element={<PropertyBuyingGuides />} />
 
-        {/*  Infrastructure LIST PAGE */}
         <Route path="/property-news" element={<PropertyNews />} />
 
-         {/*  Infrastructure LIST PAGE */}
         <Route path="/vastu" element={<Vastu />} />
 
-        {/* INDIVIDUAL CELEBRITY PAGE */}
-        <Route path="/shahrukh-khan" element={<Srk />} />
+        {/*====================== INNER PAGE LINKS ===================*/}
+
+
 
       </Routes>
 

@@ -20,6 +20,7 @@ import AreaCalImage from "../../assets/img/area-calculatore-300x179.jpg";
 export default function Home() {
     return (
         <div className="home-page">
+            
             {/*======================== Rustomjee Gif ======================*/}
             <div className="banner-wrapper w-100">
                 <img src={Banner} className="banner-img w-100" alt="Banner" />

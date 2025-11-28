@@ -1,10 +1,15 @@
+html {
+  scroll-behavior: auto !important;
+}
+
 h3{
   margin-top: 20px;
   margin-bottom: 10px;
 }
 p{
-  font-size: 0.91rem;
-  margin: 0.5rem 0 1.75em;
+   font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 20px;
   color: #555555;
 }
 a {
@@ -12,7 +17,6 @@ a {
 }
 /* Tabs Styling */
 .custom-tabs .nav-link {
-  /* font-weight: 600; */
   color: #555;
   border: none;
 }
@@ -173,3 +177,81 @@ button.btn-outline-dark {
   border: none;
   /* font-weight: 600; */
 }
+.page-transition {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.page-transition.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+/* mannat */
+@media (max-width: 767px) {
+
+  .inner_page-title {
+    font-size: 30px !important;
+    margin: 15px 0px;
+  }
+
+  .image-fit-contain img {
+    width: 100%;
+    height: auto !important;   
+    padding: 5px 0px;
+  }
+
+}
+
+.srk-banner-img {
+  border-radius: 8px;
+}
+
+.inner_page-title {
+  font-size: 50px;
+  font-weight: 700;
+  margin: 20px 0px;
+}
+
+.srk-meta {
+  font-size: 14px;
+  color: #555;
+}
+
+.section-heading {
+  margin-top: 25px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.image-fit-contain img{
+    width: 100%;
+    height: 500px;
+    padding: 10px 0px;
+}
+.add_section {
+  border: 1px solid #eee;
+  border-radius: 6px;
+  background: #fafafa;
+  top: 80px;
+  width: 100%;
+}
+.logo_Add img{
+    width: 100%;
+}
+.add_section-title {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.add_section-list li {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.add_section-list li:hover {
+  text-decoration: underline;
+}
+/* mannat close */
