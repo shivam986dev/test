@@ -14,6 +14,10 @@
   font-size: 14px;
   line-height: 1.6;
 }
+.footer-links a {
+  color: #ccc !important;
+  text-decoration: none;
+}
 
 .footer-links {
   list-style: none;
@@ -33,11 +37,13 @@
 
 .footer-social a {
   color: #ccc;
-  font-size: 22px;
+  font-size: 16px;
   margin-right: 12px;
   transition: 0.3s ease;
 }
-
+.footer-social{
+  text-align: right;
+}
 .footer-social a:hover {
   color: #fff;
 }

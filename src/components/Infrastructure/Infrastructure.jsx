@@ -16,7 +16,7 @@ export default function Infrastructure({
         <div className="container py-4 Infrastructure-page">
             <Breadcrumb />
             {/* ================= BIG FEATURE BANNER ================= */}
-            <Link to="" className="article-link">
+            <Link to="/innerinfrastructure" className="article-link">
             <div className="feature-banner mb-4">
                 <img
                     src={InfrastructureImage}

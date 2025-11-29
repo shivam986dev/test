@@ -52,7 +52,7 @@ export default function InnerBuilder1() {
                                     src="http://rustomjeeprojects.in/Mumbai_Homes/wp-content/uploads/2025/11/AD_4nXcNzqaO9XMN57w9Bu7DXxH17sUUijARgcZ5ETBar1ao5L88R9xN_6LbmIxgB83wQjoQTwbF_9QW1rI4_t6mgZV3iXwi6TyFEr0Shr_XjERWa6qfWTVO0vDE584Idf_ZWQkeRt5mSg-1.png"
                                     alt="Luxurious Locality"
                                 />
-                               
+
                             </div>
 
                             <p>
@@ -69,12 +69,11 @@ export default function InnerBuilder1() {
                                     src="http://rustomjeeprojects.in/Mumbai_Homes/wp-content/uploads/2025/11/AD_4nXd2CFcTXGjwCxkNvCAYpcdrUK3RVKHjnHkYaH-xHKia4qqbkJ4XEpVpz1BuNuckOLYs-kHG9LMPdMBk-08qCEoE1G-UlEVZwlaO8Hj7iArJZi-zr7DdZdJGanGQgAJvhDb9kNkZFQ-1.png"
                                     alt="Massive Scale"
                                 />
-                            
+
                             </div>
 
                             <p>
-                                Perkins & Will, a Chicago-based architecture firm, designed Mukesh Ambani’s home…
-                                Antilia can also withstand an earthquake with a magnitude of 8.
+                                Perkins & Will, a Chicago-based architecture firm, designed Mukesh Ambani’s Home, which is being built by Leighton Holdings of Australia. The 27-story structure features extra-high ceilings. Each level is the same height as the ordinary two-story building. Antilia can also withstand an earthquake with a Richter magnitude of 8.
                             </p>
 
                             <h3><strong>Lavish Home Decor</strong></h3>
@@ -85,27 +84,23 @@ export default function InnerBuilder1() {
                                     src="http://rustomjeeprojects.in/Mumbai_Homes/wp-content/uploads/2025/11/AD_4nXcCrgYBbnL8eUAK7Emf4JMdh7ldZv03BXPfCfGo9QgZYT27vUCbb2HkG97cfKyF1MMm7jiFsZL8J2XUtyioE8GIyYwJRPdSDHiDvvvuewegLtFS71RZciBQjyKnXbpiGDjkIoN-7Q-1.png"
                                     alt="Home Decor"
                                 />
-                               
+
                             </div>
 
                             <p>
-                                Antilia’s architectural design is based on the lotus and sun. The top six floors are private residential
-                                areas. It contains a temple, guest suites, hanging garden, helipads, salon, ice cream parlour, and a
-                                50-seat private cinema.
+                                Antilia’s architectural design is based on the lotus and sun. The top six floors of the structure have been set aside for individual full-floor residential units. The Mukesh Ambani home has a temple, a variety of guest apartments, a hanging garden, helipads, a salon, an ice cream parlour, and a private cinema theatre that seats 50 people.
                             </p>
 
                             <h3><strong>A Six-Storeyed Garage</strong></h3>
 
                             <p>
-                                Mukesh Ambani has a passion for luxury cars… The garage can accommodate 168 automobiles and includes
-                                a full-service car workshop.
+                                Mukesh Ambani has a great demand for speed. It’s no surprise that Antilia has six levels dedicated to his automobile collection, which includes his Rs 10 crore Mercedes-Benz Maybach, Ferrari, Bentley, Tesla, Rolls-Royce, and more. The garage can accommodate 168 automobiles. Antilia offers a dedicated car servicing facility on the seventh floor.
                             </p>
 
                             <h3><strong>A Snowroom To Beat The Heat</strong></h3>
 
                             <p>
-                                The Mumbai summer can be harsh, but Antilia includes a snow room that releases artificial snow to keep
-                                the family cool during hot days.
+                               The filthy Mumbai summer takes some getting accustomed to. But Mukesh Ambani and his family have a snow room to assist them in escaping the heat. The walls of this special area in the mansion spew out artificial snowflakes.
                             </p>
                         </div>
                     </div>

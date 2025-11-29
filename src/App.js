@@ -1,11 +1,12 @@
 import React, { useEffect } from "react";
 import { initSmoothScroll } from "./smoothScroll";
-
+import "./index.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
+// import "@fontsource/oswald";  
 
 import Home from "./components/Home/Home";
 import Celebrity from "./components/Celebrity/Celebrity";
@@ -30,6 +31,9 @@ import VijayVerma from "./components/Celebrity/InnerCelebrity/VijayVerma";
 // inner Connectivity links
 import InnerConnectivity1 from "./components/Connectivity/InnerConnectivity/InnerConnectivity1";
 import InnerConnectivity2 from "./components/Connectivity/InnerConnectivity/InnerConnectivity2";
+// inner Connectivity links
+import InnerInfrastructure from "./components/Infrastructure/InnerInfrastructure/InnerInfrastructure";
+
 
 function App() {
   useEffect(() => {
@@ -80,22 +84,43 @@ function App() {
 
         <Route path="/innerconnectivity2" element={<InnerConnectivity2 />} />
 
-        
+
 
         {/*===================== INFRASTRUCTURE  ============================*/}
         <Route path="/infrastructure" element={<Infrastructure />} />
+        {/*-----Infrastructure inner----*/}
 
+        <Route path="/innerinfrastructure" element={<InnerInfrastructure />} />
+
+
+        {/*===================== INSURANCE  ============================*/}
         <Route path="/insurance" element={<Insurance />} />
+        {/*-----Insurance inner----*/}
 
+
+        {/*===================== INTERIOR  ============================*/}
         <Route path="/interiors" element={<Interiors />} />
+        {/*-----Interiors inner----*/}
 
+
+        {/*===================== lOCALITY INSIGHT  ============================*/}
         <Route path="/locality-insight" element={<LocalityInsight />} />
+        {/*-----Locality Insight inner----*/}
 
+
+        {/*===================== PROPERTY BUYING GUIDES  ============================*/}
         <Route path="/property-buying-guides" element={<PropertyBuyingGuides />} />
+        {/*-----Property Buying Guides inner----*/}
 
+
+        {/*===================== PROPERTY NEWS  ============================*/}
         <Route path="/property-news" element={<PropertyNews />} />
+        {/*-----Property News inner----*/}
 
+
+        {/*===================== VASTU  ============================*/}
         <Route path="/vastu" element={<Vastu />} />
+        {/*-----Vastu inner----*/}
 
         {/*====================== INNER PAGE LINKS ===================*/}
 
