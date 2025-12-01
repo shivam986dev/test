@@ -16,7 +16,7 @@ export default function Insurance({
         <div className="container py-4 Insurance-page">
             <Breadcrumb />
             {/* ================= BIG FEATURE BANNER ================= */}
-            <Link to="" className="article-link">
+            <Link to="/innerinsurance" className="article-link">
             <div className="feature-banner mb-4">
                 <img
                     src={InsuranceImage}

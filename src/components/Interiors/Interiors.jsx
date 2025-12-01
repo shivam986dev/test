@@ -18,7 +18,7 @@ export default function Interior({
         <div className="container py-4 Interior-page">
             <Breadcrumb />
             {/* ================= BIG FEATURE BANNER ================= */}
-            <Link to="" className="article-link">
+            <Link to="/innerinterior1" className="article-link">
                 <div className="feature-banner mb-4">
                     <img
                         src={InteriorImage}
@@ -43,7 +43,7 @@ export default function Interior({
                     <div className="row g-4">
                         {/* Interiors Known for Quality */}
                         <div className="col-md-6">
-                            <Link to="" className="article-link">
+                            <Link to="/innerinterior2" className="article-link">
                                 <div className="medium-box card position-relative">
                                     <div className="img-wrapper position-relative">
                                         <img src={Interior1Image} className="card-img-top" alt="" />
@@ -61,7 +61,7 @@ export default function Interior({
 
                         {/* Interiors Delivering Projects */}
                         <div className="col-md-6">
-                            <Link to="/shahrukh-khan" className="article-link">
+                            <Link to="/innerinterior3" className="article-link">
                                 <div className="medium-box card position-relative">
                                     <div className="img-wrapper position-relative">
                                         <img src={Interior2Image} className="card-img-top" alt="" />

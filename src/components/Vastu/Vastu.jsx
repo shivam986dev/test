@@ -16,7 +16,7 @@ export default function Vastu({
         <div className="container py-4 Vastu-page">
             <Breadcrumb />
             {/* ================= BIG FEATURE BANNER ================= */}
-            <Link to="" className="article-link">
+            <Link to="/innervastu1" className="article-link">
             <div className="feature-banner mb-4">
                 <img
                     src={VastuImage}

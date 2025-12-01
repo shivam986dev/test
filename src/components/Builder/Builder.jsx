@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Breadcrumb from "../Breadcrumb/Breadcrumb";
-import "./Builder.css";
 import BuilderImage from "../../assets/img/builder/top-10-builders-in-mumbai.jpg";
 import Builder1Image from "../../assets/img/builder/best-builders-for-construction-quality.jpeg";
 import Builder2Image from "../../assets/img/builder/Top-Builders-Delivering-Projects-On-Time.jpg";
@@ -46,7 +45,7 @@ export default function Builder({
                         {/* Builders Known for Quality */}
                         <div className="col-md-6">
                             
-                            {/*--------------- inner Builder2 ---------------------*/}
+                            {/*--------------- inner Builder 2 ---------------------*/}
                             <Link to="/inner-builder2" className="article-link">
                                 <div className="medium-box card position-relative">
                                     <div className="img-wrapper position-relative">
@@ -66,7 +65,7 @@ export default function Builder({
                         {/* Builders Delivering Projects */}
                         <div className="col-md-6">
 
-                            {/*--------------- inner Builder3 ---------------------*/}
+                            {/*--------------- inner Builder 3 ---------------------*/}
                             <Link to="/inner-builder3" className="article-link">
                                 <div className="medium-box card position-relative">
                                     <div className="img-wrapper position-relative">

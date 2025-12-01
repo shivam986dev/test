@@ -70,7 +70,9 @@ export default function Home() {
                                         </h6>
                                         <p className="small-article-date">November 20, 2025</p>
                                         <p>For many Non-Resident Indians (NRIs) and international investors, the Indian real estate…</p>
+                                       <Link to="/nri">
                                         <button className="btn btn-outline-dark btn-sm">Read more</button>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -88,7 +90,9 @@ export default function Home() {
                                         </h6>
                                         <p className="small-article-date">November 15, 2025</p>
                                         <p>Mumbai is a rapidly growing metropolis, with many areas increasing faster than…</p>
+                                        <Link to="/innerlocalityinsight1">
                                         <button className="btn btn-outline-dark btn-sm">Read more</button>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -106,7 +110,9 @@ export default function Home() {
                                         </h6>
                                         <p className="small-article-date">November 20, 2025</p>
                                         <p>October 15, 2025 Bangalore, dubbed the ‘Silicon Valley of India’, is home…</p>
+                                        <Link to="/innerlocalityinsight2">
                                         <button className="btn btn-outline-dark btn-sm">Read more</button>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -124,7 +130,10 @@ export default function Home() {
                                         </h6>
                                         <p className="small-article-date">November 15, 2025</p>
                                         <p>The average annual cost of homeowners insurance in the United States is…</p>
+                                        
+                                        <Link to="/innerinsurance">
                                         <button className="btn btn-outline-dark btn-sm">Read more</button>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -156,7 +165,7 @@ export default function Home() {
                             <div className="tab-content">
                                 <div className="tab-pane fade show active" id="latest">
                                     {/* 1 */}
-                                    <Link to="/article/mannat" className="article-link">
+                                    <Link to="/nri" className="article-link">
                                         <div className="article-box d-flex">
                                             <img src={NriImage} className="card-img-top right_boxes" alt="Featured" />
                                             <div className="ms-3">
@@ -167,7 +176,7 @@ export default function Home() {
                                     </Link>
 
                                     {/* 2 */}
-                                    <Link to="/article/mannat" className="article-link">
+                                    <Link to="/innerlocalityinsight1" className="article-link">
                                         <div className="article-box d-flex">
                                             <img src={LocalityImage} className="card-img-top right_boxes" alt="Featured" />
                                             <div className="ms-3">
@@ -178,7 +187,7 @@ export default function Home() {
                                     </Link>
 
                                     {/* 3 */}
-                                    <Link to="/article/3bhk-plans" className="article-link">
+                                    <Link to="/innerlocalityinsight2" className="article-link">
                                         <div className="article-box d-flex">
                                             <img src={LocalityImage1} className="card-img-top right_boxes" alt="Featured" />
                                             <div className="ms-3">
@@ -189,7 +198,7 @@ export default function Home() {
                                     </Link>
 
                                     {/* 4 */}
-                                    <Link to="/article/mannat" className="article-link">
+                                    <Link to="/innerinsurance" className="article-link">
                                         <div className="article-box d-flex">
                                             <img src={InsuranceImage} className="card-img-top right_boxes" alt="Featured" />
                                             <div className="ms-3">
@@ -200,7 +209,7 @@ export default function Home() {
                                     </Link>
 
                                     {/* 5 */}
-                                    <Link to="/article/3bhk-plans" className="article-link">
+                                    <Link to="/innerpropertynews1" className="article-link">
                                         <div className="article-box d-flex">
                                             <img src={PropertyNImage} className="card-img-top right_boxes" alt="Featured" />
                                             <div className="ms-3">
@@ -214,7 +223,7 @@ export default function Home() {
 
                                 {/* TRENDING TAB */}
                                 <div className="tab-pane fade" id="trending">
-                                    <Link to="/article/borivali" className="article-link">
+                                    <Link to="/innerlocalityinsight1" className="article-link">
                                         <div className="article-box d-flex">
                                             <img src={MannatImage} className="card-img-top right_boxes" alt="Featured" />
                                             <div className="ms-3">
@@ -227,7 +236,7 @@ export default function Home() {
 
                                 {/* MOST VIEWED TAB */}
                                 <div className="tab-pane fade" id="mostViewed">
-                                    <Link to="/article/bangalore-cost" className="article-link">
+                                    <Link to="/innerlocalityinsight2" className="article-link">
                                         <div className="article-box d-flex">
                                             <img src={MannatImage} className="card-img-top right_boxes" alt="Featured" />
                                             <div className="ms-3">
@@ -249,7 +258,7 @@ export default function Home() {
                             <div className="row">
                                 {/*-------- property news ---------*/}
                                 <div className="col-md-4">
-                                    <Link to="/article/mannat" className="article-link">
+                                    <Link to="/innerpropertynews1" className="article-link">
                                         <div className="small-article card1 mb-4">
                                             <img
                                                 src={PropertyNImage}
@@ -268,7 +277,7 @@ export default function Home() {
                                 </div>
                                 {/*----------- interior--------- */}
                                 <div className="col-md-4">
-                                    <Link to="/article/borivali" className="article-link">
+                                    <Link to="/innerinterior1" className="article-link">
                                         <div className="small-article card1 mb-4">
                                             <img
                                                 src={InteriorImage}
@@ -288,7 +297,7 @@ export default function Home() {
                                 </div>
                                 {/*-------- property news ---------*/}
                                 <div className="col-md-4">
-                                    <Link to="/article/bangalore-cost" className="article-link">
+                                    <Link to="/innerpropertynews2" className="article-link">
                                         <div className="small-article card1 mb-4">
                                             <img
                                                 src={PropertyN1Image}
@@ -308,7 +317,7 @@ export default function Home() {
                                 </div>
                                 {/*-------- property Buying ---------*/}
                                 <div className="col-md-4">
-                                    <Link to="/article/insurance-cost" className="article-link">
+                                    <Link to="/innerpropertybuyingguides1" className="article-link">
                                         <div className="small-article card1 mb-4">
                                             <img
                                                 src={PropertyBImage}
@@ -328,7 +337,7 @@ export default function Home() {
                                 </div>
                                 {/*-------- Connectivity ---------*/}
                                 <div className="col-md-4">
-                                    <Link to="/article/nri-real-estate" className="article-link">
+                                    <Link to="/innerconnectivity2" className="article-link">
                                         <div className="small-article card1 mb-4">
                                             <img
                                                 src={ConnectivityImage}
@@ -348,7 +357,7 @@ export default function Home() {
                                 </div>
                                 {/*-------- interior ---------*/}
                                 <div className="col-md-4">
-                                    <Link to="/article/borivali" className="article-link">
+                                    <Link to="/innerinterior2" className="article-link">
                                         <div className="small-article card1 mb-4">
                                             <img
                                                 src={Interior1Image}

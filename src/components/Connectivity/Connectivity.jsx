@@ -20,7 +20,7 @@ export default function Connectivity({
 
             {/* innerconnectivity1 */}
 
-            <Link to="/innerconnectivity1" className="article-link">
+            <Link to="/innerconnectivity2" className="article-link">
             <div className="feature-banner mb-4">
                 <img
                     src={ConnectivityImage}
@@ -46,7 +46,7 @@ export default function Connectivity({
 
                             {/* innerconnectivity2 */}
 
-                            <Link to="/innerconnectivity2" className="article-link">
+                            <Link to="/innerconnectivity1" className="article-link">
                                 <div className="medium-box card position-relative">
                                     <div className="img-wrapper position-relative">
                                         <img src={Connectivity1Image} className="card-img-top" alt="" />

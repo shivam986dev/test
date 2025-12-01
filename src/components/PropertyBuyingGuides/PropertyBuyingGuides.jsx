@@ -16,7 +16,7 @@ export default function PropertyBuyingGuides({
         <div className="container py-4 PropertyBuying-page">
             <Breadcrumb />
             {/* ================= BIG FEATURE BANNER ================= */}
-            <Link to="" className="article-link">
+            <Link to="/innerpropertybuyingguides" className="article-link">
             <div className="feature-banner mb-4">
                 <img
                     src={PropertyBuyingImage}

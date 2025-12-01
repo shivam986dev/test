@@ -17,7 +17,7 @@ export default function PropertyNews({
         <div className="container py-4 PropertyNews-page">
             <Breadcrumb />
             {/* ================= BIG FEATURE BANNER ================= */}
-            <Link to="" className="article-link">
+            <Link to="/innerpropertynews1" className="article-link">
             <div className="feature-banner mb-4">
                 <img
                     src={PropertyNewsImage}
@@ -40,9 +40,8 @@ export default function PropertyNews({
                 {/* LEFT 2 MEDIUM BOXES */}
                 <div className="col-lg-8">
                     <div className="row g-4">
-                        {/* Virat Kohli */}
                         <div className="col-md-6">
-                            <Link to="" className="article-link">
+                            <Link to="/innerpropertynews2" className="article-link">
                                 <div className="medium-box card position-relative">
                                     <div className="img-wrapper position-relative">
                                         <img src={PropertyNews1Image} className="card-img-top" alt="" />

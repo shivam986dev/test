@@ -17,7 +17,7 @@ export default function Locality({
         <div className="container py-4 Locality-page">
             <Breadcrumb />
             {/* ================= BIG FEATURE BANNER ================= */}
-            <Link to="" className="article-link">
+            <Link to="/innerlocalityinsight1" className="article-link">
             <div className="feature-banner mb-4">
                 <img
                     src={LocalityImage}
@@ -40,9 +40,8 @@ export default function Locality({
                 {/* LEFT 2 MEDIUM BOXES */}
                 <div className="col-lg-8">
                     <div className="row g-4">
-                        {/* Virat Kohli */}
                         <div className="col-md-6">
-                            <Link to="" className="article-link">
+                            <Link to="/innerlocalityinsight2" className="article-link">
                                 <div className="medium-box card position-relative">
                                     <div className="img-wrapper position-relative">
                                         <img src={Locality1Image} className="card-img-top" alt="" />
