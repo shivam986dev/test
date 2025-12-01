@@ -20,7 +20,7 @@ import AreaCalImage from "../../assets/img/area-calculatore-300x179.jpg";
 export default function Home() {
     return (
         <div className="home-page">
-            
+
             {/*======================== Rustomjee Gif ======================*/}
             <div className="banner-wrapper w-100">
                 <img src={Banner} className="banner-img w-100" alt="Banner" />
@@ -70,8 +70,8 @@ export default function Home() {
                                         </h6>
                                         <p className="small-article-date">November 20, 2025</p>
                                         <p>For many Non-Resident Indians (NRIs) and international investors, the Indian real estate…</p>
-                                       <Link to="/nri">
-                                        <button className="btn btn-outline-dark btn-sm">Read more</button>
+                                        <Link to="/nri">
+                                            <button className="btn btn-outline-dark btn-sm">Read more</button>
                                         </Link>
                                     </div>
                                 </div>
@@ -91,7 +91,7 @@ export default function Home() {
                                         <p className="small-article-date">November 15, 2025</p>
                                         <p>Mumbai is a rapidly growing metropolis, with many areas increasing faster than…</p>
                                         <Link to="/innerlocalityinsight1">
-                                        <button className="btn btn-outline-dark btn-sm">Read more</button>
+                                            <button className="btn btn-outline-dark btn-sm">Read more</button>
                                         </Link>
                                     </div>
                                 </div>
@@ -111,7 +111,7 @@ export default function Home() {
                                         <p className="small-article-date">November 20, 2025</p>
                                         <p>October 15, 2025 Bangalore, dubbed the ‘Silicon Valley of India’, is home…</p>
                                         <Link to="/innerlocalityinsight2">
-                                        <button className="btn btn-outline-dark btn-sm">Read more</button>
+                                            <button className="btn btn-outline-dark btn-sm">Read more</button>
                                         </Link>
                                     </div>
                                 </div>
@@ -130,9 +130,9 @@ export default function Home() {
                                         </h6>
                                         <p className="small-article-date">November 15, 2025</p>
                                         <p>The average annual cost of homeowners insurance in the United States is…</p>
-                                        
+
                                         <Link to="/innerinsurance">
-                                        <button className="btn btn-outline-dark btn-sm">Read more</button>
+                                            <button className="btn btn-outline-dark btn-sm">Read more</button>
                                         </Link>
                                     </div>
                                 </div>
@@ -223,12 +223,57 @@ export default function Home() {
 
                                 {/* TRENDING TAB */}
                                 <div className="tab-pane fade" id="trending">
+                                    {/* 1 */}
+                                    <Link to="/nri" className="article-link">
+                                        <div className="article-box d-flex">
+                                            <img src={NriImage} className="card-img-top right_boxes" alt="Featured" />
+                                            <div className="ms-3">
+                                                <h6 className="article-title">Why Avoiding Indian Real Estate Could Be Your Biggest Financial Mistake?</h6>
+                                                <p className="meta">Nov 15, 2025</p>
+                                            </div>
+                                        </div>
+                                    </Link>
+
+                                    {/* 2 */}
                                     <Link to="/innerlocalityinsight1" className="article-link">
                                         <div className="article-box d-flex">
-                                            <img src={MannatImage} className="card-img-top right_boxes" alt="Featured" />
+                                            <img src={LocalityImage} className="card-img-top right_boxes" alt="Featured" />
                                             <div className="ms-3">
-                                                <h6 className="article-title">Borivali East or West: Best?</h6>
+                                                <h6 className="article-title">Borivali East or West, Which Is the Best?</h6>
                                                 <p className="meta">Nov 15, 2025</p>
+                                            </div>
+                                        </div>
+                                    </Link>
+
+                                    {/* 3 */}
+                                    <Link to="/innerlocalityinsight2" className="article-link">
+                                        <div className="article-box d-flex">
+                                            <img src={LocalityImage1} className="card-img-top right_boxes" alt="Featured" />
+                                            <div className="ms-3">
+                                                <h6 className="article-title">Cost of Living in Bangalore (2025-2026): Detailed list of monthly expenses</h6>
+                                                <p className="meta"><i className="bi bi-eye"></i> 187 views • Nov 15, 2025</p>
+                                            </div>
+                                        </div>
+                                    </Link>
+
+                                    {/* 4 */}
+                                    <Link to="/innerinsurance" className="article-link">
+                                        <div className="article-box d-flex">
+                                            <img src={InsuranceImage} className="card-img-top right_boxes" alt="Featured" />
+                                            <div className="ms-3">
+                                                <h6 className="article-title">The Average Home Insurance Cost in the U.S. for 2025</h6>
+                                                <p className="meta">Nov 15, 2025</p>
+                                            </div>
+                                        </div>
+                                    </Link>
+
+                                    {/* 5 */}
+                                    <Link to="/innerpropertynews1" className="article-link">
+                                        <div className="article-box d-flex">
+                                            <img src={PropertyNImage} className="card-img-top right_boxes" alt="Featured" />
+                                            <div className="ms-3">
+                                                <h6 className="article-title">What Does a Fed Rate Cut Mean for Mortgage Rates?</h6>
+                                                <p className="meta"><i className="bi bi-eye"></i> 187 views • Nov 15, 2025</p>
                                             </div>
                                         </div>
                                     </Link>
@@ -238,7 +283,7 @@ export default function Home() {
                                 <div className="tab-pane fade" id="mostViewed">
                                     <Link to="/innerlocalityinsight2" className="article-link">
                                         <div className="article-box d-flex">
-                                            <img src={MannatImage} className="card-img-top right_boxes" alt="Featured" />
+                                            <img src={LocalityImage1} className="card-img-top right_boxes" alt="Featured" />
                                             <div className="ms-3">
                                                 <h6 className="article-title">Cost of Living in Bangalore 2025</h6>
                                                 <p className="meta"><i className="bi bi-eye"></i> 102 views • Nov 15, 2025</p>

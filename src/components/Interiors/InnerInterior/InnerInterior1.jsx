@@ -47,7 +47,6 @@ export default function InnerBuilder1() {
                             <div class="post-image-container image-fit-contain">
                                 <img class="show-on-desktop img-fluid" src="https://rustomjeeprojects.in/Mumbai_Homes/wp-content/uploads/2025/11/AD_4nXftupuIQwuV5I32Ma_dt0GLmXXW7O6wV93mXpRNYusEr6-kQFO63sZonD9EAcaxotzqM0y5WQEEn2sCgZBVd3nIW1G1Eigbf7qU_7NvogCRtLlswI_zIZSLyIb3oIrW0x7G0hiBbw.jpg" />
                             </div>
-
                             <p>This smartly planned 3BHK ground-floor house plan has a fluid flow and practical areas. The main entrance leads into a large living room that seamlessly links to a modern kitchen with an accompanying utility area. The spacious living area flows easily into a modern kitchen and dining area, creating a welcoming family atmosphere. With a focus on comfort and modern aesthetics, this ground-floor design meets the different needs of a busy family lifestyle.</p>
                             <h3>3 BHK house plan with a car parking</h3>
 
@@ -58,13 +57,9 @@ export default function InnerBuilder1() {
                             <div class="post-image-container image-fit-contain">
                                 <img class="show-on-desktop img-fluid" src="https://rustomjeeprojects.in/Mumbai_Homes/wp-content/uploads/2025/11/AD_4nXcoDUaPiWkQzmM8l5TtMlQv3z3ElNFc5KXssfjHgG3ZYxSQlSsEr1HNOdZ-5Jo2cI-IY19ngmUYLo-vyrEn_0A7oR9IQaQGEoLqFqvwMzsyk7cmjrUIZ_TvnIrAkDaEWPDGcX4Grg.jpg" />
                             </div>
-
                             <img class="show-on-desktop img-fluid" src="https://rustomjeeprojects.in/Mumbai_Homes/wp-content/uploads/2025/11/AD_4nXfuQ6Z7kRDi_v7YHnvm6uj49gES1Hecgv8BEGe_BvVNhoSsss_6UPDqR3gyDKMRbTFJBfwBOGS-qXZwcrx9o5pLR_cXcgGsdgwYdbOcCCba4TVqpXpJl63sVEeIpiRniYRaZ9buoQ.jpg" />
-
                             <p>This 3 BHK house plan seamlessly blends efficient living with allotted parking. The main entrance leads to a wide living area that flows seamlessly into a modern kitchen. The arrangement includes a designated parking area, which ensures ease and security. Each of the three bedrooms is positioned strategically to provide solitude while still allowing for plenty of natural light. A central eating room leads into a comfortable family lounge. This well-balanced plan combines aesthetic appeal with utilitarian design, providing occupants with a comfortable living environment.</p>
-
                             <h3>3 BHK house plan with a garden</h3>
-
                             <div class="post-image-container image-fit-contain">
                                 <img class="show-on-desktop img-fluid" src="https://rustomjeeprojects.in/Mumbai_Homes/wp-content/uploads/2025/11/AD_4nXeRv-JCr_VZlw9pAG8iySMDt85uF5vDF6Z8FYbVfIK7IU5jn9dGVTI4T2D8Zwqe3ZysF9rgX4NuJjFcuiTzVnVLYTQof3y_xRdyV2aMOlFa89Wcqv8lfaVjQug4XdCByAiaqDHeRw.jpg" />
                             </div>
@@ -173,16 +168,16 @@ export default function InnerBuilder1() {
 
                             <h3>FAQ’S</h3>
 
-                            <h3>What does 3BHK mean?</h3>
+                            <p className="mb-1"><strong>What does 3BHK mean?</strong></p>
                             <p>“3 BHK” is a real estate word used in India that stands for three bedrooms, a hall, and a kitchen.It refers to a residential unit that has three independent bedrooms, a living room (hall), and a kitchen, making it ideal for families or individuals who require more space for an office or guest room.</p>
 
-                            <h3>How many sq ft is 3 BHK?</h3>
+                            <p className="mb-1"><strong>How many sq ft is 3 BHK?</strong></p>
                             <p>The standard size for a 3 Bhk flat is from 1,200 to 1,800 square feet. This size may accommodate three bedrooms, a living room, a dining area, a kitchen, and two or more bathrooms.</p>
 
-                            <h3>How much does a 3 BHK cost in Mumbai?</h3>
+                            <p className="mb-1"><strong>How much does a 3 BHK cost in Mumbai?</strong></p>
                             <p>A 3 BHK (three-bedroom, hall, kitchen) flat in Mumbai can cost anywhere from 2.5 crore to 7 crore or more, depending on location, construction, and facilities.</p>
 
-                            <h3>Can you build a 3BHK house on 1500 sq ft land?</h3>
+                            <p className="mb-1"><strong>Can you build a 3BHK house on 1500 sq ft land?</strong></p>
                             <p>This size may provide enough space for three bedrooms, a living area, a dining room, a kitchen, and two or more bathrooms.</p>
                         </div>
 
