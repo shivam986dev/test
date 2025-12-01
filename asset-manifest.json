@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/test/static/css/main.569626af.css",
-    "main.js": "/test/static/js/main.1c877d8d.js",
+    "main.css": "/test/static/css/main.b28b1792.css",
+    "main.js": "/test/static/js/main.8ec93734.js",
     "static/media/pop-up-designs.png": "/test/static/media/pop-up-designs.f2d3d47b7f4d8b8797a9.png",
     "static/media/ChatGPT-Image-Sep-18-2025-01_40_52-PM.png": "/test/static/media/ChatGPT-Image-Sep-18-2025-01_40_52-PM.11ef2455401b5056c87d.png",
     "static/media/antilia.png": "/test/static/media/antilia.d0719948785682a58d1e.png",
@@ -30,11 +30,11 @@
     "static/media/stamp-duty-calculatore-300x179.jpg": "/test/static/media/stamp-duty-calculatore-300x179.1645850278a155d3321f.jpg",
     "static/media/area-calculatore-300x179.jpg": "/test/static/media/area-calculatore-300x179.9b2a4837f63eb622ecf4.jpg",
     "index.html": "/test/index.html",
-    "main.569626af.css.map": "/test/static/css/main.569626af.css.map",
-    "main.1c877d8d.js.map": "/test/static/js/main.1c877d8d.js.map"
+    "main.b28b1792.css.map": "/test/static/css/main.b28b1792.css.map",
+    "main.8ec93734.js.map": "/test/static/js/main.8ec93734.js.map"
   },
   "entrypoints": [
-    "static/css/main.569626af.css",
-    "static/js/main.1c877d8d.js"
+    "static/css/main.b28b1792.css",
+    "static/js/main.8ec93734.js"
   ]
 }
