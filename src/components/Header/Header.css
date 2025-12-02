@@ -110,7 +110,7 @@
 }
 
 .navbar-toggler {
-  border: none !;
+  border: none !important;
 }
 
 .toggler-icon {
@@ -176,3 +176,4 @@
 }
 
 @media (max-width: 991px) {}
+

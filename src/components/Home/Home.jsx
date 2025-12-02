@@ -422,7 +422,7 @@ export default function Home() {
                                 </div>
                                 {/*-------- duty Calculator ---------*/}
                                 <div className="col-md-4">
-                                    <Link to="/article/bangalore-cost" className="article-link">
+                                    <Link to="/dutycalculator" className="article-link">
                                         <div className="small-article card1 mb-4">
                                             <img
                                                 src={DutyCalImage}
@@ -442,7 +442,7 @@ export default function Home() {
                                 </div>
                                 {/*-------- area Calculator ---------*/}
                                 <div className="col-md-4">
-                                    <Link to="/article/insurance-cost" className="article-link">
+                                    <Link to="/areacalculator" className="article-link">
                                         <div className="small-article card1 mb-4">
                                             <img
                                                 src={AreaCalImage}

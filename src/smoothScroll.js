@@ -1,16 +1,16 @@
-// import Lenis from "@studio-freight/lenis";
+import Lenis from "@studio-freight/lenis";
 
-// export const initSmoothScroll = () => {
-//   const lenis = new Lenis({
-//     duration: 1.2,
-//     smooth: true,
-//     smoothTouch: true,
-//   });
+export const initSmoothScroll = () => {
+  const lenis = new Lenis({
+    duration: 1.2,
+    smooth: true,
+    smoothTouch: true,
+  });
 
-//   function raf(time) {
-//     lenis.raf(time);
-//     requestAnimationFrame(raf);
-//   }
+  function raf(time) {
+    lenis.raf(time);
+    requestAnimationFrame(raf);
+  }
 
-//   requestAnimationFrame(raf);
-// };
+  requestAnimationFrame(raf);
+};

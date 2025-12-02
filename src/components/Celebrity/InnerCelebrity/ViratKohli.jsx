@@ -3,6 +3,7 @@ import React from "react";
 import Celebrity1Image from "../../../assets/img/celebrity-homes/virat-kohlis-house.webp";
 import LogoaddImage from "../../../assets/img/Logo-animation.gif";
 
+
 export default function InnerBuilder1() {
     const today = new Date().toLocaleDateString("en-US", {
         month: "long",
@@ -12,16 +13,12 @@ export default function InnerBuilder1() {
 
     return (
         <div className="container py-4 inner_builder1-page p-lg-0">
-
             {/* Title */}
             <h1 className="inner_page-title">
                 Virat Kohli House
             </h1>
-
-
             {/* Main Content */}
             <div className="row">
-
                 {/* LEFT CONTENT */}
                 <div className="col-lg-8">
                     <div className="all_innerbanner">
@@ -252,10 +249,8 @@ export default function InnerBuilder1() {
                         <p>If you are a Virat Kohli fan and want to live near his home in Mumbai, We Mumbai Homes can help you.</p>
                     </div>
                 </div>
-
                 {/* RIGHT SIDEBAR */}
-                <div className="col-lg-4 pe-lg-0">
-
+                <div className="col-lg-4 pe-lg-0  d-none d-lg-block">
                     <div className="add_section sticky-top">
                         <div className="logo_Add mb-4 ">
                             <img src={LogoaddImage} alt="adds Rustomjee" className=" add-img" />

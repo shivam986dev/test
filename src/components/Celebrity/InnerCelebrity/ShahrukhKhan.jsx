@@ -3,6 +3,7 @@ import React from "react";
 import MannatImage from "../../../assets/img/srk-mannat/srk-mannat-940x560-2.jpeg";
 import LogoaddImage from "../../../assets/img/Logo-animation.gif";
 
+
 export default function Srk() {
     const today = new Date().toLocaleDateString("en-US", {
         month: "long",
@@ -12,18 +13,12 @@ export default function Srk() {
 
     return (
         <div className="container py-4 srk-page p-lg-0">
-
-
-
             {/* Title */}
             <h1 className="inner_page-title">
                 Mannat, Shahrukh Khan House: Price, Inside Tour, Address
             </h1>
-
-
             {/* Main Content */}
             <div className="row">
-
                 {/* LEFT CONTENT */}
                 <div className="col-lg-8">
                     {/* Banner Image */}
@@ -501,12 +496,11 @@ export default function Srk() {
                     <p>Contractors believe significant structural construction will last until 2025, following which interiors will be styled. Until the wraps come off, throngs continue to congregate outside, anxious to see the latest chapter in Bollywood’s most famous address.</p>
                     <h3>Summing Up: Shahrukh Khan House</h3>
                     <p>Earlier this month, on Eid, Shahrukh greeted all of his admirers from outside his Mannat balcony. A long-standing tradition for the Khan on his birthday and Eid. However, due to the Covid epidemic, Shahrukh has not made an appearance in the last two years. So it was a momentous event for his followers, who finally saw their favourite star after two years: this Eid. And, of course, the nameplate was a visual delight for everyone. All photographs are credited to the social media handles of Shahrukh Khan and Gauri Khan.</p>
-                    
+
 
                 </div>
-
                 {/* RIGHT SIDEBAR */}
-                <div className="col-lg-4 pe-lg-0">
+                <div className="col-lg-4 pe-lg-0 d-none d-lg-block">
 
                     <div className="add_section sticky-top">
                         <div className="logo_Add mb-4 ">
@@ -514,7 +508,6 @@ export default function Srk() {
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     );

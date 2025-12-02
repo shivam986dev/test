@@ -3,6 +3,7 @@ import { NavLink, Link } from "react-router-dom";
 import Logo from "../../assets/img/mumbai-homes-logo.png";
 import "./Header.css";
 
+
 export default function Header() {
 
   useEffect(() => {
@@ -17,32 +18,6 @@ export default function Header() {
       });
     });
   }, []);
-
-//  useEffect(() => {
-//   const toggler = document.querySelector(".mobile-toggle");
-//   const menu = document.getElementById("mainMenu");
-//   const body = document.body;
-
-//   toggler?.addEventListener("click", () => {
-//     menu.classList.toggle("show");
-//     toggler.classList.toggle("active"); 
-//     body.classList.toggle("menu-open");
-//   });
-
-//   const navLinks = document.querySelectorAll("#mainMenu .nav-link");
-
-//   navLinks.forEach(link => {
-//     link.addEventListener("click", () => {
-//       menu.classList.remove("show");
-//       body.classList.remove("menu-open");
-
-//       if (toggler.classList.contains("active")) {
-//         toggler.classList.remove("active");
-//       }
-//     });
-//   });
-// }, []);
-
 
   return (
     <header className="mh-header border-bottom bg-white py-lg-2 p-0">

@@ -12,16 +12,12 @@ export default function InnerBuilder1() {
 
     return (
         <div className="container py-4 inner_builder1-page p-lg-0">
-
             {/* Title */}
             <h1 className="inner_page-title">
                 Jennifer Lawrence quietly offloads her Beverly Hills home
             </h1>
-
-
             {/* Main Content */}
             <div className="row">
-
                 {/* LEFT CONTENT */}
                 <div className="col-lg-8">
                     <div className="all_innerbanner">
@@ -56,10 +52,8 @@ export default function InnerBuilder1() {
                         </div>
                     </div>
                 </div>
-
                 {/* RIGHT SIDEBAR */}
-                <div className="col-lg-4 pe-lg-0">
-
+                <div className="col-lg-4 pe-lg-0 d-none d-lg-block">
                     <div className="add_section sticky-top">
                         <div className="logo_Add mb-4 ">
                             <img src={LogoaddImage} alt="adds Rustomjee" className=" add-img" />

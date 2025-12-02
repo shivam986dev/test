@@ -3,6 +3,7 @@ import React from "react";
 import ConnectivityImage from "../../../assets/img/connectivity/unnamed.jpg";
 import LogoaddImage from "../../../assets/img/Logo-animation.gif";
 
+
 export default function InnerBuilder1() {
     const today = new Date().toLocaleDateString("en-US", {
         month: "long",
@@ -2296,7 +2297,7 @@ export default function InnerBuilder1() {
                 </div>
 
                 {/* RIGHT SIDEBAR */}
-                <div className="col-lg-4 pe-lg-0">
+                <div className="col-lg-4 pe-lg-0  d-none d-lg-block">
 
                     <div className="add_section sticky-top">
                         <div className="logo_Add mb-4 ">

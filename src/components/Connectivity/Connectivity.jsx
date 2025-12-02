@@ -21,21 +21,21 @@ export default function Connectivity({
             {/* innerconnectivity1 */}
 
             <Link to="/innerconnectivity2" className="article-link">
-            <div className="feature-banner mb-4">
-                <img
-                    src={ConnectivityImage}
-                    alt={title}
-                    className="w-100 feature-img"/>
+                <div className="feature-banner mb-4">
+                    <img
+                        src={ConnectivityImage}
+                        alt={title}
+                        className="w-100 feature-img img_brightness" />
 
-                <div className="feature-text">
-                    <span className="tag">Connectivity</span>
-                    <h1 className="feature-title">Mumbai Versova Ghatkopar Metro Route: Map, Stations & More | Mumbai Line 1 – Blue Line</h1>
-                    <p className="feature-meta text-white">
-                        November  15, 2025
-                    </p>
+                    <div className="feature-text">
+                        <span className="tag">Connectivity</span>
+                        <h1 className="feature-title">Mumbai Versova Ghatkopar Metro Route: Map, Stations & More | Mumbai Line 1 – Blue Line</h1>
+                        <p className="feature-meta text-white">
+                            November  15, 2025
+                        </p>
+                    </div>
                 </div>
-            </div>
-        </Link>
+            </Link>
             {/* ================= ROW: 2 MEDIUM POSTS + SIDEBAR ================= */}
             <div className="row">
 
@@ -60,14 +60,14 @@ export default function Connectivity({
                                     </div>
                                 </div>
                             </Link>
-                        </div>                      
+                        </div>
                     </div>
                 </div>
 
 
 
                 {/* ================= RIGHT SIDEBAR ================= */}
-                <div className="col-lg-4 pe-lg-0">
+                <div className="col-lg-4 pe-lg-0  d-none d-lg-block">
 
                     <div className="add_section sticky-top">
                         <div className="logo_Add mb-4 ">

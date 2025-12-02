@@ -3,6 +3,7 @@ import React from "react";
 import Celebrity3Image from "../../../assets/img/celebrity-homes/Vijay-Verma-Home-in-Juhu-940x560-1-768x458.png";
 import LogoaddImage from "../../../assets/img/Logo-animation.gif";
 
+
 export default function InnerBuilder1() {
     const today = new Date().toLocaleDateString("en-US", {
         month: "long",
@@ -12,15 +13,12 @@ export default function InnerBuilder1() {
 
     return (
         <div className="container py-4 inner_builder1-page p-lg-0">
-
             {/* Title */}
             <h1 className="inner_page-title">
                 Actor Vijay Verma’s Juhu Home
             </h1>
-
             {/* Main Content */}
             <div className="row">
-
                 {/* LEFT CONTENT */}
                 <div className="col-lg-8">
                     <div className="all_innerbanner">
@@ -143,9 +141,8 @@ export default function InnerBuilder1() {
                         {/* ⬆⬆⬆ FORM ENDED HERE ⬆⬆⬆ */}
                     </div>
                 </div>
-
                 {/* RIGHT SIDEBAR */}
-                <div className="col-lg-4 pe-lg-0">
+                <div className="col-lg-4 pe-lg-0 d-none d-lg-block">
                     <div className="add_section sticky-top">
                         <div className="logo_Add mb-4 ">
                             <img src={LogoaddImage} alt="adds Rustomjee" className=" add-img" />

@@ -21,7 +21,7 @@ export default function Vastu({
                     <img
                         src={VastuImage}
                         alt={title}
-                        className="w-100 feature-img"
+                        className="w-100 feature-img img_brightness"
                     />
                     <div className="feature-text">
                         <span className="tag">Vastu</span>
@@ -37,7 +37,7 @@ export default function Vastu({
                 <div className="col-lg-8">
                 </div>
                 {/* ================= RIGHT SIDEBAR ================= */}
-                <div className="col-lg-4 pe-lg-0">
+                <div className="col-lg-4 pe-lg-0  d-none d-lg-block">
 
                     <div className="add_section sticky-top">
                         <div className="logo_Add mb-4 ">

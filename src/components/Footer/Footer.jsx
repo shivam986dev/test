@@ -11,7 +11,7 @@ export default function Footer() {
         <div className="row">
 
           {/* LEFT COLUMN */}
-          <div className="col-lg-4 mb-4">
+          <div className="col-lg-3 mb-4">
             <h4 className="footer-title">Mumbai Homes Blogs</h4>
             <p className="footer-text">
               We bring you the best Premium WordPress-style themes that are perfect for news,
@@ -22,7 +22,7 @@ export default function Footer() {
           </div>
 
           {/* MIDDLE COLUMN */}
-          <div className="col-lg-5 mb-4">
+          <div className="col-lg-6 mb-4">
             <h5 className="footer-title">Categories</h5>
 
             <div className="row">

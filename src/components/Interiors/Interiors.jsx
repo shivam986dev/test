@@ -23,7 +23,7 @@ export default function Interior({
                     <img
                         src={InteriorImage}
                         alt={title}
-                        className="w-100 feature-img"
+                        className="w-100 feature-img img_brightness"
                     />
 
                     <div className="feature-text">
@@ -82,7 +82,7 @@ export default function Interior({
 
 
                 {/* ================= RIGHT SIDEBAR ================= */}
-                <div className="col-lg-4 pe-lg-0">
+                <div className="col-lg-4 pe-lg-0  d-none d-lg-block">
 
                     <div className="add_section sticky-top">
                         <div className="logo_Add mb-4 ">
