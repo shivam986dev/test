@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/test/static/css/main.cb72a27a.css",
-    "main.js": "/test/static/js/main.c7fafd13.js",
+    "main.js": "/test/static/js/main.26af51a7.js",
     "static/media/pop-up-designs.png": "/test/static/media/pop-up-designs.f2d3d47b7f4d8b8797a9.png",
     "static/media/ChatGPT-Image-Sep-18-2025-01_40_52-PM.png": "/test/static/media/ChatGPT-Image-Sep-18-2025-01_40_52-PM.11ef2455401b5056c87d.png",
     "static/media/antilia.png": "/test/static/media/antilia.d0719948785682a58d1e.png",
@@ -31,10 +31,10 @@
     "static/media/area-calculatore-300x179.jpg": "/test/static/media/area-calculatore-300x179.9b2a4837f63eb622ecf4.jpg",
     "index.html": "/test/index.html",
     "main.cb72a27a.css.map": "/test/static/css/main.cb72a27a.css.map",
-    "main.c7fafd13.js.map": "/test/static/js/main.c7fafd13.js.map"
+    "main.26af51a7.js.map": "/test/static/js/main.26af51a7.js.map"
   },
   "entrypoints": [
     "static/css/main.cb72a27a.css",
-    "static/js/main.c7fafd13.js"
+    "static/js/main.26af51a7.js"
   ]
 }
